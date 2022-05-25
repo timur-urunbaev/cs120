@@ -1,2 +1,2 @@
 # cs120
-<h1>Epidemic Simulation</h1>
+<h2>Epidemic Simulation</h2>

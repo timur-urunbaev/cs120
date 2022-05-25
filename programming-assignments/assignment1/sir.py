@@ -142,8 +142,9 @@ def run_simulation(starting_city, days_contagious,
     '''
 
     # YOUR CODE HERE
+    random.seed(random_seed)
     days = 0
-    copy = starting_city[:]
+    copy = vaccinate_city(starting_city, vaccine_effectiveness)
     prev_day = [0]# original city for checking with changed ones
     while(prev_day != copy): # while previous day not equal to upcoming
         prev_day = copy[:]
@@ -173,6 +174,8 @@ def vaccinate_city(starting_city, vaccine_effectiveness):
         if changed_city[pos] == 'S':
             if random.random() < vaccine_effectiveness:
                 changed_city[pos] = 'V'
+            else:
+                changed_city[pos] = 'S'
     
     # YOUR CODE HERE
 
@@ -207,18 +210,21 @@ def calc_avg_days_to_zero_infections(
     assert num_trials > 0
 
     # YOUR CODE HERE
-    changable_seed = TEST_SEED
+    
     counter = 0
     days_to_zero = 0.0
     while counter < num_trials:
+        # SEED SHIT
+        changable_seed = random_seed
         changable_seed += counter
-        copy = vaccinate_city(starting_city, vaccine_effectiveness)
-        copy, days = run_simulation(copy, days_contagious, changable_seed, vaccine_effectiveness=0.0)
-        days_to_zero += days
+        # used functions
+        returned_city, returned_days = run_simulation(starting_city, days_contagious, changable_seed, vaccine_effectiveness)
+        # summers - to sum up given values
+        days_to_zero += returned_days
         counter+=1
 
     # REPLACE -1.0 WITH THE APPROPRIATE FLOATING POINT VALUE
-    return days_to_zero/num_trials
+    return days_to_zero/float(num_trials)
 
 
 ################ Do not change the code below this line #######################

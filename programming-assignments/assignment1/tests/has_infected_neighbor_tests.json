@@ -1,0 +1,147 @@
+[
+    {
+        "city": [
+            "I0",
+            "S",
+            "S"
+        ],
+        "position": 1,
+        "expected": true,
+        "purpose": "Left neighbor infected."
+    },
+    {
+        "city": [
+            "I1000",
+            "S",
+            "S"
+        ],
+        "position": 1,
+        "expected": true,
+        "purpose": "Left neighbor infected w/ multi-digit days infected."
+    },
+    {
+        "city": [
+            "R",
+            "S",
+            "I0"
+        ],
+        "position": 1,
+        "expected": true,
+        "purpose": "Right neighbor infected."
+    },
+    {
+        "city": [
+            "R",
+            "S",
+            "I1000"
+        ],
+        "position": 1,
+        "expected": true,
+        "purpose": "Right neighbor infected w/ multi-digit days infected."
+    },
+    {
+        "city": [
+            "I1",
+            "S",
+            "I0"
+        ],
+        "position": 1,
+        "expected": true,
+        "purpose": "Both neighbors infected"
+    },
+    {
+        "city": [
+            "S",
+            "S",
+            "R"
+        ],
+        "position": 1,
+        "expected": false,
+        "purpose": "Neither neighbor infected."
+    },
+    {
+        "city": [
+            "R",
+            "S",
+            "S",
+            "I1"
+        ],
+        "position": 2,
+        "expected": true,
+        "purpose": "City with more than three people.  Right neighbor infected."
+    },
+    {
+        "city": [
+            "R",
+            "I200",
+            "S",
+            "R"
+        ],
+        "position": 2,
+        "expected": true,
+        "purpose": "City with more than three people. Left neighbor infected."
+    },
+    {
+        "city": [
+            "I0",
+            "S",
+            "S",
+            "R"
+        ],
+        "position": 2,
+        "expected": false,
+        "purpose": "City with more than three people. Neither neighbor infected."
+    },
+    {
+        "city": [
+            "S",
+            "S",
+            "S",
+            "I1"
+        ],
+        "position": 0,
+        "expected": false,
+        "purpose": "First person. Single neighbor (right) not infected."
+    },
+    {
+        "city": [
+            "S",
+            "I1",
+            "S",
+            "I1"
+        ],
+        "position": 0,
+        "expected": true,
+        "purpose": "First person. Single neighbor (right) infected."
+    },
+    {
+        "city": [
+            "I0",
+            "S",
+            "S",
+            "S"
+        ],
+        "position": 3,
+        "expected": false,
+        "purpose": "Last person. Single neighbor (left) not infected."
+    },
+    {
+        "city": [
+            "I0",
+            "S",
+            "I10",
+            "S"
+        ],
+        "position": 3,
+        "expected": true,
+        "purpose": "Last person. Single neighbor (left) infected."
+    },
+    {
+        "city": [
+            "S"
+        ],
+        "position": 0,
+        "expected": false,
+        "purpose": "Solo person in city"
+    }
+]

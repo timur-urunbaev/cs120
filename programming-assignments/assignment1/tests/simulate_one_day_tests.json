@@ -1,0 +1,105 @@
+[
+    {
+        "city": [
+            "I0",
+            "I1",
+            "I100"
+        ],
+        "days_contagious": 200,
+        "expected_city": [
+            "I1",
+            "I2",
+            "I101"
+        ],
+        "purpose": "Purpose: check that I values are incremented correctly"
+    },
+    {
+        "city": [
+            "I2",
+            "I2",
+            "I2"
+        ],
+        "days_contagious": 3,
+        "expected_city": [
+            "R",
+            "R",
+            "R"
+        ],
+        "purpose": "Purpose: check that I values are converted to R correctly"
+    },
+    {
+        "city": [
+            "R",
+            "R",
+            "R"
+        ],
+        "days_contagious": 3,
+        "expected_city": [
+            "R",
+            "R",
+            "R"
+        ],
+        "purpose": "Purpose: check that R values do not change"
+    },
+    {
+        "city": [
+            "I1",
+            "S",
+            "I1"
+        ],
+        "days_contagious": 3,
+        "expected_city": [
+            "I2",
+            "I0",
+            "I2"
+        ],
+        "purpose": "Purpose: Check that a susceptible person becomes infected"
+    },
+    {
+        "city": [
+            "I1",
+            "S",
+            "I1"
+        ],
+        "days_contagious": 2,
+        "expected_city": [
+            "R",
+            "I0",
+            "R"
+        ],
+        "purpose": "Purpose: Check that a susceptible person becomes infected, even when its neighbors recover in that same day."
+    },
+    {
+        "city": [
+            "S",
+            "I0",
+            "S"
+        ],
+        "days_contagious": 2,
+        "expected_city": [
+            "I0",
+            "I1",
+            "I0"
+        ],
+        "purpose": "Purpose: Check that two susceptible persons become infected."
+    },
+    {
+        "city": [
+            "S",
+            "S",
+            "S"
+        ],
+        "days_contagious": 2,
+        "expected_city": [
+            "S",
+            "S",
+            "S"
+        ],
+        "purpose": "Purpose: Check that none of the susceptible persons become infected"
+    },
+
+    {"city": ["I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "S", "S", "S", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "S", "S", "S", "S", "S", "S"],
+     "days_contagious": 2, 
+     "expected_city": ["R", "R", "S", "S", "S", "R", "S", "S", "I0", "R", "R", "R", "S", "S", "S", "R", "S", "S", "I0", "R", "I0", "S", "I0", "R", "R", "S", "S", "S", "R", "S", "S", "I0", "R", "R", "R", "S", "S", "S", "R", "S", "S", "I0", "R", "I0", "S", "S", "S", "S", "S"],
+     "purpose": "Large city with medium infection rate"}
+]

@@ -1,0 +1,188 @@
+[
+    {   "city": [
+           "I0"
+        ],
+        "expected_num_infected": 1,
+        "purpose": "One person city with an infected person."
+    },
+
+    {   "city": [
+           "I2000"
+        ],
+        "expected_num_infected": 1,
+        "purpose": "One person city with an infected person who has a large days-infected count."
+    },
+
+    {   "city": [
+           "R"
+        ],
+        "expected_num_infected": 0,
+        "purpose": "One person city with a recovered person"
+    },
+
+    {   "city": [
+           "S"
+        ],
+        "expected_num_infected": 0,
+        "purpose": "One person city with susceptible person"
+    },
+
+    {
+        "city": [
+            "S",
+            "S",
+            "S",
+            "S"
+        ],
+        "expected_num_infected": 0,
+        "purpose": "Small city with all susceptible"
+    },
+    {
+        "city": [
+            "R",
+            "R",
+            "R",
+            "R"
+        ],
+        "expected_num_infected": 0,
+        "purpose": "Small city with all recovered"
+    },
+    {
+        "city": [
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S",
+            "R",
+            "S"
+        ],
+        "expected_num_infected": 0,
+        "purpose": "Larger city with mix of susceptible and recovered"
+    },
+    {
+        "city": [
+            "I1",
+            "S",
+            "S",
+            "S"
+        ],
+        "expected_num_infected": 1,
+        "purpose": "Small city with one infected in slot 0, rest susceptible"
+    },
+    {
+        "city": [
+            "S",
+            "I1",
+            "S",
+            "S"
+        ],
+        "expected_num_infected": 1,
+        "purpose": "Small city with one infected in slot 1, rest susceptible"
+    },
+    {
+        "city": [
+            "S",
+            "S",
+            "I1",
+            "S"
+        ],
+        "expected_num_infected": 1,
+        "purpose": "Small city with one infected in slot 2, rest susceptible"
+    },
+    {
+        "city": [
+            "S",
+            "S",
+            "S",
+            "I1"
+        ],
+        "expected_num_infected": 1,
+        "purpose": "Small city with one infected in slot 3, rest susceptible"
+    },
+    {
+        "city": [
+            "I1",
+            "R",
+            "R",
+            "R"
+        ],
+        "expected_num_infected": 1,
+        "purpose": "Small city with one infected in slot 0, rest recovered"
+    },
+    {
+        "city": [
+            "I0",
+            "S",
+            "I1",
+            "R"
+        ],
+        "expected_num_infected": 2,
+        "purpose": "Small city with mixed types"
+    },
+    {
+        "city": [
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0",
+            "I0"
+        ],
+        "expected_num_infected": 20,
+        "purpose": "Larger city all in state I0"
+    },
+    {
+        "city": [
+            "I0",
+            "I1",
+            "I0",
+            "I1",
+            "I0",
+            "I1",
+            "I0",
+            "I1",
+            "I0",
+            "I1",
+            "I0",
+            "I1",
+            "I0",
+            "I1",
+            "I2",
+            "I1",
+            "I0",
+            "I1",
+            "I3",
+            "I1"
+        ],
+        "expected_num_infected": 20,
+        "purpose": "Larger city, mixed infection types"
+    }
+]

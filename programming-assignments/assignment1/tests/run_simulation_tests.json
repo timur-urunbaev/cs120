@@ -1,0 +1,37 @@
+[
+
+    {"starting_city": ["S", "S", "I0"],
+     "days_contagious":3,
+     "random_seed": null,
+     "vaccine_effectiveness": 0.0,
+     "expected": [["R", "R", "R"], 5],
+     "purpose": "Everyone is infected and recovers."},
+
+    {"starting_city": ["S", "R", "I0"],
+     "days_contagious": 3,
+     "random_seed": null,
+     "vaccine_effectiveness": 0.0,
+     "expected": [["S", "R", "R"], 3],
+     "purpose": "Only one infection, recovered person prevents susceptible person from getting infected."},
+
+    {"starting_city": ["R", "S", "S"],
+     "days_contagious": 2,
+     "random_seed": null,
+     "vaccine_effectiveness": 0.0,
+     "expected": [["R", "S", "S"], 0],
+     "purpose": "No infections in starting city, so we don't simulate any days."},
+
+    {"starting_city": ["R", "I0", "S", "I1", "S", "R", "S"],
+     "days_contagious": 10,
+     "random_seed": null,
+     "vaccine_effectiveness": 0.0,
+     "expected": [["R", "R", "R", "R", "R", "R", "S"], 11],
+     "purpose": "Medium city"},
+
+    {"starting_city": ["I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "S", "S", "S", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "S", "S", "S", "S", "S", "S"],
+     "days_contagious": 2,
+     "random_seed": null,
+     "vaccine_effectiveness": 0.0,
+     "expected": [["R", "R", "S", "S", "S", "R", "R", "R", "R", "R", "R", "R", "S", "S", "S", "R", "R", "R", "R", "R", "R", "R", "R", "R", "R", "S", "S", "S", "R", "R", "R", "R", "R", "R", "R", "S", "S", "S", "R", "R", "R", "R", "R", "R", "R", "R", "R", "R", "R"], 8],
+     "purpose": "Large city"}
+]

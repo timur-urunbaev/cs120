@@ -1,0 +1,157 @@
+[
+    {
+        "city": [
+            "I1",
+            "S",
+            "S"
+        ],
+        "position": 1,
+        "days_contagious": 3,
+        "expected": "I0",
+        "purpose": "Left neighbor is infected, susceptible person gets infected"
+    },
+    {
+        "city": [
+            "S",
+            "S",
+            "I0"
+        ],
+        "position": 1,
+        "days_contagious": 3,
+        "expected": "I0",
+        "purpose": "Right neighbor is infected, susceptible person gets infected"
+    },
+    {
+        "city": [
+            "I20",
+            "S",
+            "I0"
+        ],
+        "position": 1,
+        "days_contagious": 3,
+        "expected": "I0",
+        "purpose": "Both neighbors are infected, susceptible person gets infected"
+    },
+    {
+        "city": [
+            "R",
+            "S",
+            "R"
+        ],
+        "position": 1,
+        "days_contagious": 3,
+        "expected": "S",
+        "purpose": "Neither neighbor is infected, susceptible person does not get infected"
+    },
+    {
+        "city": [
+            "I1",
+            "S",
+            "S",
+            "S"
+        ],
+        "position": 2,
+        "days_contagious": 3,
+        "expected": "S",
+        "purpose": "Neither neighbor is infected, susceptible person does not get infected"
+    },
+    {
+        "city": [
+            "S",
+            "S",
+            "I0"
+        ],
+        "position": 0,
+        "days_contagious": 3,
+        "expected": "S",
+        "purpose": "Right neighbor only, susceptible person does not get infected"
+    },
+    {
+        "city": [
+            "S",
+            "I1500",
+            "I0"
+        ],
+        "position": 0,
+        "days_contagious": 3,
+        "expected": "I0",
+        "purpose": "Right neighbor only, susceptible person gets infected."
+    },
+    {
+        "city": [
+            "I1",
+            "R",
+            "S"
+        ],
+        "position": 2,
+        "days_contagious": 3,
+        "expected": "S",
+        "purpose": "Left neighbor only, susceptible person does not get infected"
+    },
+    {
+        "city": [
+            "I1",
+            "I1500",
+            "S"
+        ],
+        "position": 2,
+        "days_contagious": 3,
+        "expected": "I0",
+        "purpose": "Left neighbor only, susceptible person gets infected."
+    },
+    {
+        "city": [
+            "I1",
+            "I1500",
+            "S"
+        ],
+        "position": 0,
+        "days_contagious": 3,
+        "expected": "I2",
+        "purpose": "Infected should be increment."
+    },
+    {
+        "city": [
+            "I2",
+            "I1500",
+            "S"
+        ],
+        "position": 0,
+        "days_contagious": 3,
+        "expected": "R",
+        "purpose": "Infected should be converted to recovered."
+    },
+    {
+        "city": [
+            "I2",
+            "I1500",
+            "S"
+        ],
+        "position": 1,
+        "days_contagious": 2000,
+        "expected": "I1501",
+        "purpose": "Infected should be incremented. Large number of days contagious."
+    },
+    {
+        "city": [
+            "I2",
+            "I1500",
+            "S"
+        ],
+        "position": 1,
+        "days_contagious": 1501,
+        "expected": "R",
+        "purpose": "Infected person recovers. Large number of days contagious."
+    },
+    {
+        "city": [
+            "I2",
+            "I1500",
+            "R"
+        ],
+        "position": 2,
+        "days_contagious": 2000,
+        "expected": "R",
+        "purpose": "Recovered, no change."
+    }
+]

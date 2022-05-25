@@ -1,0 +1,386 @@
+[
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 5,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-3-1-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 3,
+        "max_num_steps": 1,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 1 simulation step"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 5,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-3-2-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 3,
+        "max_num_steps": 2,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 2 simulation steps"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 5,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-3-3-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 3,
+        "max_num_steps": 3,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 3 simulation steps"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 6,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-1-1-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 1,
+        "max_num_steps": 1,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 1 simulation step"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 9,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-1-2-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 1,
+        "max_num_steps": 2,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 2 simulation steps"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 12,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-1-3-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 1,
+        "max_num_steps": 3,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 3 simulation steps"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 12,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-1-4-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 1,
+        "max_num_steps": 4,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 4 simulation steps"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 12,
+        "expected_filename": "tests/a20-sample-writeup-1-40-70-1-5-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 1,
+        "max_num_steps": 5,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 5 simulation steps"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 0,
+        "expected_filename": "tests/a20-sample-writeup-1-0-100-1-10-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ],
+        "patience": 1,
+        "max_num_steps": 10,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup after 5 simulation steps"
+    },
+    {
+        "input_filename": "a20-sample-writeup.txt",
+        "expected_num_relocations": 2,
+        "expected_filename": "tests/a20-sample-writeup-2-40-70-1-10-final.txt",
+        "R": 2,
+        "sim_sat_range": [
+            0.4,
+            0.7
+        ],
+        "patience": 1,
+        "max_num_steps": 10,
+        "initial_for_sale": [
+            [
+                0,
+                2
+            ],
+            [
+                1,
+                0
+            ],
+            [
+                1,
+                4
+            ],
+            [
+                3,
+                3
+            ],
+            [
+                4,
+                4
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Check example from writeup with larger R"
+    },
+    {
+        "input_filename": "grid-sea-of-red.txt",
+        "expected_num_relocations": 0,
+        "expected_filename": "tests/grid-sea-of-red-1-10-11-1-10-final.txt",
+        "R": 1,
+        "sim_sat_range": [
+            0.1,
+            0.11
+        ],
+        "patience": 1,
+        "max_num_steps": 10,
+        "initial_for_sale": [
+            [
+                1,
+                0
+            ],
+            [
+                2,
+                3
+            ]
+        ],
+        "test_category": "small",
+        "purpose": "Everyone is unhappy, but no one can move."
+    }
+]

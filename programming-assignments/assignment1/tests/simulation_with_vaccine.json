@@ -1,0 +1,52 @@
+[
+
+    {"starting_city": ["S", "S", "S", "S", "S", "I0", "S"],
+     "days_contagious":2,
+     "random_seed": 20170217,
+     "vaccine_effectiveness": 0.0,
+     "expected": [["R", "R", "R", "R", "R", "R", "R"], 7],
+     "purpose": "Completely ineffective vaccine (no one is vaccinated, like Task 5)"},
+
+    {"starting_city": ["S", "S", "S", "S", "S", "I0", "S"],
+     "days_contagious":2,
+     "random_seed": 20170217,
+     "vaccine_effectiveness": 0.3,
+     "expected": [["S", "V", "R", "R", "R", "R", "R"], 5],
+     "purpose": "Vaccine effectiveness = 0.3"},
+
+    {"starting_city": ["S", "S", "S", "S", "S", "I0", "S"],
+     "days_contagious":2,
+     "random_seed": 20170218,
+     "vaccine_effectiveness": 0.3,
+     "expected": [["S", "S", "S", "V", "V", "R", "R"], 3],
+     "purpose": "Vaccine effectiveness = 0.3 (different seed)"},
+
+    {"starting_city": ["S", "S", "S", "S", "S", "I0", "S"],
+     "days_contagious":2,
+     "random_seed": 20170217,
+     "vaccine_effectiveness": 0.8,
+     "expected": [["V", "V", "V", "V", "R", "R", "V"], 3],
+     "purpose": "Vaccine effectiveness = 0.8"},
+
+    {"starting_city": ["S", "S", "S", "S", "S", "I0", "S"],
+     "days_contagious":2,
+     "random_seed": 20170218,
+     "vaccine_effectiveness": 0.8,
+     "expected": [["V", "V", "V", "V", "V", "R", "V"], 2],
+     "purpose": "Vaccine effectiveness = 0.8 (different seed)"},
+
+
+    {"starting_city": ["S", "S", "S", "S", "S", "I0", "S"],
+     "days_contagious":2,
+     "random_seed": 20170217,
+     "vaccine_effectiveness": 1.0,
+     "expected": [["V", "V", "V", "V", "V", "R", "V"], 2],
+     "purpose": "Completely effective vaccine"},
+
+    {"starting_city": ["I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "S", "S", "S", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "I1", "R", "S", "S", "S", "R", "S", "S", "S", "I1", "S", "S", "S", "S", "S", "S"],
+     "days_contagious": 2,
+     "random_seed": 20170217,
+     "vaccine_effectiveness": 0.5,
+     "expected": [["R", "R", "V", "V", "S", "R", "V", "R", "R", "R", "R", "R", "S", "S", "V", "R", "S", "V", "R", "R", "V", "R", "R", "R", "R", "V", "V", "V", "R", "R", "R", "R", "R", "R", "R", "S", "V", "S", "R", "R", "R", "R", "R", "V", "V", "V", "S", "S", "V"], 5],
+     "purpose": "Large city"}
+]

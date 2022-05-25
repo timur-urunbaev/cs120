@@ -1,0 +1,617 @@
+[
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 0,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "0B/1M/0F",
+        "neighborhood_type": "Interior",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 0,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "0B/1M/0F",
+        "neighborhood_type": "Interior",
+        "expected_result": true,
+        "sim_sat_range": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 0,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "0B/1M/0F",
+        "neighborhood_type": "Interior",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.999
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "2B/3M/0F",
+        "neighborhood_type": "Interior",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "2B/3M/0F",
+        "neighborhood_type": "Interior",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.6,
+            0.6
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "2B/3M/0F",
+        "neighborhood_type": "Interior",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.599
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "2B/3M/0F",
+        "neighborhood_type": "Interior",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.601,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "6B/5M/2F",
+        "neighborhood_type": "Interior",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "6B/5M/2F",
+        "neighborhood_type": "Interior",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.45,
+            0.46
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "6B/5M/2F",
+        "neighborhood_type": "Interior",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.45
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "6B/5M/2F",
+        "neighborhood_type": "Interior",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.46,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.55,
+            0.56
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.549
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            2,
+            2
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.56,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "0B/2M/1F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "0B/2M/1F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "0B/2M/1F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.999
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "1B/3M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "1B/3M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.75,
+            0.75
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "1B/3M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.749
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "1B/3M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.751,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.55,
+            0.56
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.549
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            0,
+            0
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.56,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "0B/2M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "0B/2M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 1,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "0B/2M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.999
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "2B/4M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "2B/4M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.66,
+            0.67
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "2B/4M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.66
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 2,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "2B/4M/2F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.67,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.55,
+            0.56
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.549
+        ]
+    },
+    {
+        "filename": "a20-sample-writeup.txt",
+        "R": 8,
+        "location": [
+            4,
+            3
+        ],
+        "neighborhood_composition": "9B/11M/5F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.56,
+            1.0
+        ]
+    },
+    {
+        "filename": "grid-blue-stripe.txt",
+        "R": 8,
+        "location": [
+            4,
+            4
+        ],
+        "neighborhood_composition": "14B/10M/1F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.0,
+            1.0
+        ]
+    },
+    {
+        "filename": "grid-blue-stripe.txt",
+        "R": 8,
+        "location": [
+            4,
+            4
+        ],
+        "neighborhood_composition": "14B/10M/1F",
+        "neighborhood_type": "Boundary",
+        "expected_result": true,
+        "sim_sat_range": [
+            0.41,
+            0.42
+        ]
+    },
+    {
+        "filename": "grid-blue-stripe.txt",
+        "R": 8,
+        "location": [
+            4,
+            4
+        ],
+        "neighborhood_composition": "14B/10M/1F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.0,
+            0.41
+        ]
+    },
+    {
+        "filename": "grid-blue-stripe.txt",
+        "R": 8,
+        "location": [
+            4,
+            4
+        ],
+        "neighborhood_composition": "14B/10M/1F",
+        "neighborhood_type": "Boundary",
+        "expected_result": false,
+        "sim_sat_range": [
+            0.42,
+            1.0
+        ]
+    }
+]

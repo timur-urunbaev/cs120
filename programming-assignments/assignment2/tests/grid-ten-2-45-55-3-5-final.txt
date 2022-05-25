@@ -1,0 +1,11 @@
+10
+F B F M F M B F M M
+M M F M F M B B F F
+F F M F F F F F B B
+F M M F M F F M B M
+M F B F F M F B F M
+B B M M F F B B M B
+M B B F M M B M B B
+F M M F M B B M M B
+M M B M M B B M M F
+B M B M M B B B M M

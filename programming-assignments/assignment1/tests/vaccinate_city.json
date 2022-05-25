@@ -1,0 +1,74 @@
+[
+    {
+        "seed": 20170217,
+        "city": [
+            "S", "S", "S", "S", "S", "I0", "S"
+        ],
+        "vaccine_effectiveness": 0.0,
+        "expected_city": [
+            "S", "S", "S", "S", "S", "I0", "S"
+        ],
+        "num_rand_calls": 6,
+        "purpose": "Completely ineffective vaccine. No one should be vaccinated."
+    },
+    {
+        "seed": 20170217,
+        "city": [
+            "S", "S", "S", "S", "S", "I0", "S"
+        ],
+        "vaccine_effectiveness": 1.0,
+        "expected_city": [
+            "V", "V", "V", "V", "V", "I0", "V"
+        ],
+        "num_rand_calls": 6,
+        "purpose": "Completely effective vaccine. Every susceptible person should be vaccinated."
+    },
+    {
+        "seed": 20170217,
+        "city": [
+            "I0", "I1", "I2", "R"
+        ],
+        "vaccine_effectiveness": 1.0,
+        "expected_city": [
+            "I0", "I1", "I2", "R"
+        ],
+        "num_rand_calls": 0,
+        "purpose": "Completely effective vaccine, but no susceptible people. Everyone should stay in their original state."
+    },
+    {
+        "seed": 20170217,
+        "city": [
+            "S", "S", "S", "S", "S", "I0", "S"
+        ],
+        "vaccine_effectiveness": 0.3,
+        "expected_city": [
+            "S", "V", "S", "S", "S", "I0", "S"
+        ],
+        "num_rand_calls": 6,
+        "purpose": "Partially effective vaccine. Only one person ends up vaccinated."
+    },
+    {
+        "seed": 20170217,
+        "city": [
+            "S", "S", "S", "S", "S", "I0", "S"
+        ],
+        "vaccine_effectiveness": 0.8,
+        "expected_city": [
+            "V", "V", "V", "V", "S", "I0", "V"
+        ],
+        "num_rand_calls": 6,
+        "purpose": "Partially effective vaccine. All but one susceptible person ends up vaccinated."
+    },
+    {
+        "seed": 20170218,
+        "city": [
+            "S", "S", "S", "S", "S", "I0", "S"
+        ],
+        "vaccine_effectiveness": 0.8,
+        "expected_city": [
+            "V", "V", "V", "V", "V", "I0", "V"
+        ],
+        "num_rand_calls": 6,
+        "purpose": "Partially effective vaccine, but with a different seed that affects the outcome."
+    }
+]
